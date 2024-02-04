@@ -36,7 +36,7 @@ GIF created with ...  LiceCap
 ## Notes
 
 Describe any challenges encountered while building the app:
-It took a bit of warming up to remember how to perform some of the usual web app tasks in Javascript, especially settigng up the event listener. Some of the challenge questions had me fooled, too, but I've definitely learned from them.
+It took a bit of warming up to remember how to perform some of the usual web app tasks in Javascript, especially setting up the event listeners. Some of the challenge questions had me fooled, too, but I've definitely learned from them.
 
 ## License
 
