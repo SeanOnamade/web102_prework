@@ -9,18 +9,52 @@ body {
     width: 50px;
 }
 
+#oceanwave {
+    width: 50px
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#centered-paragraph {
+    text-align: center;
+}
+
+
 .header {
     display: flex;
     background-color: lightblue;
     padding: 1%;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
 }
 
+h1 {
+    font-size: 3em; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
 .stats-container {
+    /* justify-content: space-around; */
     display: flex;
+    /* align-items: center; */
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -57,6 +91,14 @@ body {
     border-radius: 7px;
 }
 
+/* I had to add this in here... */
+.game-card img {
+    max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+    height: auto;    /* Maintain the aspect ratio */
+    display: block;  /* Remove any extra spacing below the image */
+}
+
+
 .game-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
@@ -72,4 +114,24 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#game-search {
+    padding: 5px;
+    font-size: 16px;
+}
+
+#search-button {
+    padding: 5px 10px;
+    font-size: 16px;
 }
